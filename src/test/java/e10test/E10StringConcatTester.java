@@ -1,4 +1,4 @@
-package e7test;
+package e10test;
 
 import org.example.e10.E10StringConcatenation;
 import org.junit.jupiter.api.AfterEach;
@@ -8,9 +8,10 @@ import org.junit.jupiter.api.Test;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
-class E10StringConcatenationTester {
+class E10StringConcatTester {
+
 
     private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
     private final PrintStream originalOut = System.out;
@@ -36,4 +37,6 @@ class E10StringConcatenationTester {
 
         assertEquals(expectedOutput, outContent.toString(), failureMessage);
     }
+
+
 }

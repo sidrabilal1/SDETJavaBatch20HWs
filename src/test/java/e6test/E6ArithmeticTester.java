@@ -1,6 +1,6 @@
-package e10test;
+package e6test;
 
-import org.example.e7.E7AirthmeticOperations;
+import org.example.e6.E6ArithmeticOperations;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -8,9 +8,10 @@ import org.junit.jupiter.api.Test;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
-class E7AirthmeticOperationsTester {
+class E6ArithmeticTester {
+
 
     private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
     private final PrintStream originalOut = System.out;
@@ -27,16 +28,17 @@ class E7AirthmeticOperationsTester {
 
     @Test
     void testArithmeticOperations() {
-        E7AirthmeticOperations.main(new String[]{});
-        String expectedOutput = "300" + System.lineSeparator() +
-                "100" + System.lineSeparator() +
-                "20000" + System.lineSeparator() +
-                "2" + System.lineSeparator();
+        E6ArithmeticOperations.main(new String[]{});
+        String expectedOutput = "The multiplication of 8.2 with itself is equal to 67.24" + System.lineSeparator();
 
         String failureMessage = "The output does not match the expected values.\n" +
-                "Please ensure that your program declares two variables with values 200 and 100,\n" +
-                "performs addition, subtraction, multiplication, and division, and prints the results on separate lines.";
+                "Please ensure that your program creates a float variable with the value 8.2, multiplies it by itself, and prints the result.";
 
         assertEquals(expectedOutput, outContent.toString(), failureMessage);
     }
+
+
+
+
+
 }

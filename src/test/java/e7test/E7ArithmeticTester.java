@@ -1,6 +1,6 @@
-package e8test;
+package e7test;
 
-import org.example.e11.E11StringConcatenation;
+import org.example.e7.E7ArithmeticOperations;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -8,9 +8,9 @@ import org.junit.jupiter.api.Test;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
-class E11StringConcatenationTester {
+class E7ArithmeticTester {
 
     private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
     private final PrintStream originalOut = System.out;
@@ -26,13 +26,16 @@ class E11StringConcatenationTester {
     }
 
     @Test
-    void testStringConcatenation() {
-        E11StringConcatenation.main(new String[]{});
-        String expectedOutput = "syntaxtechs.com" + System.lineSeparator();
+    void testArithmeticOperations() {
+        E7ArithmeticOperations.main(new String[]{});
+        String expectedOutput = "300" + System.lineSeparator() +
+                "100" + System.lineSeparator() +
+                "20000" + System.lineSeparator() +
+                "2" + System.lineSeparator();
 
         String failureMessage = "The output does not match the expected values.\n" +
-                "Please ensure that your program creates a variable with the value 'syntax',\n" +
-                "creates a variable with the value 'techs.com', and prints them concatenated.";
+                "Please ensure that your program declares two variables with values 200 and 100,\n" +
+                "performs addition, subtraction, multiplication, and division, and prints the results on separate lines.";
 
         assertEquals(expectedOutput, outContent.toString(), failureMessage);
     }

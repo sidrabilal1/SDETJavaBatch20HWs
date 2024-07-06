@@ -6,13 +6,14 @@ public class E16DistanceConversionModulus {
         int totalMeters = 1850;
 
         // Calculate kilometers and meters
-        int div = totalMeters/1000;
+        int div = totalMeters / 1000;
         int kiloMeter = div;
-        int mod = totalMeters%1000;
+        int mod = totalMeters % 1000;
         int meters = mod;
 
 
         // Print the results
-        System.out.println(totalMeters+" is equal "+kiloMeter+" kilometers "+meters+" meters ");
+        System.out.println(totalMeters + " is equal to " + kiloMeter + " kilometers " + meters + " meters ");
     }
+
 }

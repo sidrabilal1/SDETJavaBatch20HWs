@@ -13,7 +13,7 @@ public class E16DistanceConversionModulus {
 
 
         // Print the results
-        System.out.println(totalMeters + " is equal to " + kiloMeter + " kilometers " + meters + " meters ");
+        System.out.println(totalMeters + " meters " + "is equal to " + kiloMeter + " kilometers and " + meters + " meters.");
     }
 
 }

@@ -3,7 +3,7 @@ package org.example.e5;
 public class E5AssignmentOperator {
     public static void main(String[] args) {
         // Step 1: Declare the String variable and set it to "Chen"
-             String name="chen";
+             String name="Chen";
 
         // Step 2: Declare the integer variable and set it to 50
               int age=50;

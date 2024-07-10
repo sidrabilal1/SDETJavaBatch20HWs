@@ -9,13 +9,13 @@ public class E12CalculateCostArithmeticConcat {
         float item4 = 27.49f;
 
         // Calculate the total cost
-            float result = item1+item2+item3+item4;
+            float totalcost = item1+item2+item3+item4;
         // Calculate the average cost
-            float cost = result/4;
+            float averagecost = totalcost/4;
         // Print the results
       //  System.out.println("The total cost is " + totalCost);
         //System.out.println("The average cost is " + averageCost);
-        System.out.println("The total cost is " +result);
-        System.out.println("The average cost is " +cost);
+        System.out.println("The total cost is " +totalcost);
+        System.out.println("The average cost is " +averagecost);
     }
 }

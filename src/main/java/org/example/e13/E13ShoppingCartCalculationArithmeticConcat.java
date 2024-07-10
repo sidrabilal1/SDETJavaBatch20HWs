@@ -22,9 +22,9 @@ public class E13ShoppingCartCalculationArithmeticConcat {
 
 
         // Step 4: Print the result
-        System.out.println("Total cost:"+ totalCost);
-        System.out.println("Discount amount:" + discountAmount);
-        System.out.println("Final price:" + finalPrice);
+        System.out.println("Total Cost: $"+  totalCost);
+        System.out.println("Discount Amount: $" + discountAmount);
+        System.out.println("Final Price: $" + finalPrice);
 
 
 

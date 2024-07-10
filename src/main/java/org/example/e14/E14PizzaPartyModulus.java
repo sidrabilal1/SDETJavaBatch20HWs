@@ -9,12 +9,13 @@ public class E14PizzaPartyModulus {
           int friends = 4;
 
         // Calculate slices per person
-         int div = totalSlices;
+         int div = totalSlices/friends;
+         int totalslices= div;
          int mod = totalSlices%friends;
 
         // Print the results
-        System.out.println("Each person get "+div+" slices ");
-        System.out.println(" There are "+mod+" Slices leftover ");
+        System.out.println("Each person gets "+div+" slices.");
+        System.out.println("There are "+mod+" slices left over.");
 
     }
 }

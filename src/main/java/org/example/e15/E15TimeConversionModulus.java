@@ -12,6 +12,6 @@ public class E15TimeConversionModulus {
        int minutes = mod;
 
         // Print the results
-        System.out.println(totalMinutes+" is equal "+hour+" hours and "+minutes+" minutes");
+        System.out.println(totalMinutes+" minutes is equal to " +hour+" hours and " +minutes+ " minutes.");
     }
 }

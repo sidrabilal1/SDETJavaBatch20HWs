@@ -39,7 +39,7 @@ M
 Please enter your age
 30
 Man
-```
+```28
 
 ```
 Example Output:
@@ -47,7 +47,7 @@ Please enter your gender: M or F
 M
 Please enter your age
 20
-Boy
+
 ```
 
 ```

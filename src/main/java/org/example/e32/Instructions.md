@@ -1,4 +1,4 @@
-# Exercise 32: Gender and Age Classification
+2# Exercise 32: Gender and Age Classification
 
 ## Objective
 Learn how to use the `Scanner` class in Java to capture string and numerical input from the user and use nested `if-else` conditions to classify the user based on gender and age.
@@ -39,7 +39,7 @@ M
 Please enter your age
 30
 Man
-```28
+
 
 ```
 Example Output:
@@ -47,7 +47,7 @@ Please enter your gender: M or F
 M
 Please enter your age
 20
-
+Boy
 ```
 
 ```

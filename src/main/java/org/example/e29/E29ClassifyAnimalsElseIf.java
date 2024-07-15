@@ -8,7 +8,7 @@ public class E29ClassifyAnimalsElseIf {
 
         // Use if-else-if conditions to classify the animal
   if (animal.equals("Dog")){
-      System.out.println( " The animal is mammal.");
+      System.out.println("The animal is mammal.");
 
   } else if( animal.equals("eagle")){
       System.out.println(" The animal is bird.");

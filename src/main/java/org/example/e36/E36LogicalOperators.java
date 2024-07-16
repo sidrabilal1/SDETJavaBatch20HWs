@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class E36LogicalOperators {
     public static void main(String[] args) {
         // Create a Scanner object to read input
-
+        Scanner
         // Print prompt for user to enter their monthly rent expense
         // Capture the rent expense input
 

@@ -11,6 +11,8 @@ public class E38LogicalOperators {
         // Capture the weekend input
         boolean isWeekened = input.nextBoolean();
         // Determine the subject based on the input
+        System.out.println("Are you available? (true/false)");
+        boolean isAvailable = input.nextBoolean();
         // If it is the weekend
         //    Set subject to "Java"
         // Otherwise
@@ -18,12 +20,14 @@ public class E38LogicalOperators {
 
         // Print the subject suggestion
         // Output: Today you will be learning ___
-        if (isWeekened) {
+        if (isWeekened && isAvailable) {
             System.out.println("Today you will be learning Java");
-        } else {
+        } else if (!isWeekened && isAvailable) {
             System.out.println("Today you will be learning manual testing");
 
 
+        }else if (!isAvailable){
+            System.out.println("Today you will be learning no subject");
         }
 
 

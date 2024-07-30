@@ -11,6 +11,14 @@ public class E78Arrays {
 
         // Use nested loops to iterate through the 2D array and calculate the sum of all elements
 
-        // Print the calculated sum
+        // Print the calculated s
+        int sum = 0;
+        for(int i = 0; i< a.length; i++){
+            for (int j = 0; j<a.length; j++){
+                sum+=a[i][j];
+            }
+        }
+        System.out.println();
+        }
     }
-}
+

@@ -7,8 +7,11 @@ public class E68Arrays {
 
         // Print the characters at the indices that form the word "syntax"
 
+        char [] names = {'s','a','y','b','n','c','t','d','a','e','x'};
 
-
+        for (int i = 0; i < names.length; i= i+2){
+            System.out.print(names[i]);
+        }
 
 
     }

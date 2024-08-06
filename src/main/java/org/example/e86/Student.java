@@ -7,7 +7,7 @@ public class Student {
 
     Student student = new Student();
     String name;
-    String roll_no;
+    int  roll_no;
 
 
 
